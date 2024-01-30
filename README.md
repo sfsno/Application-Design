@@ -4,7 +4,7 @@
 Le design choisi est le Design n°2.
 
 ## La technologie choisie
-J'ai choisi les technologies Android avec XML et Kotlin.
+J'ai choisi de travailler sur Android avec XML et Kotlin.
 
 ## Descriptif
 J'ai tout d'abord réalisé la page d'accueil comme demandé. J'ai ensuite effectué le bonus, qui comprend les quatre écrans de présentation, un pour chaque montre. Pour améliorer l'esthétique du bouton "Add to cart", j'ai crée un drawable afin de simplifier la mise en place des caractéristiques du bouton, notamment ses bords ronds et son gradient. Le gradient fonctionne correctement sur le drawable mais ne s'affiche malheureusement pas sur les pages bonus.
