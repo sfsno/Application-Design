@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/titre"
+        android:layout_width="390dp"
+        android:layout_height="114dp"
+        android:layout_marginLeft="-8dp"
+        android:layout_marginTop="145dp"
+        android:fontFamily="@font/raleway_bold"
+        android:text="Find your suitable watch now."
+        android:textColor="#1B153D"
+        android:textSize="38sp"
+
+        app:layout_constraintBottom_toTopOf="@+id/petittitre"
+
+        app:layout_constraintLeft_toLeftOf="@+id/hautgauche"
+        app:layout_constraintTop_toTopOf="parent"
+         />
+
+    <TextView
+        android:id="@+id/petittitre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="-8dp"
+        android:text="Smart watch"
+        android:textColor="#5B41FF"
+        android:fontFamily="@font/raleway_semibold"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@+id/titre"
+        app:layout_constraintLeft_toLeftOf="@+id/hautgauche"/>
+
+
+
+    <ImageView
+        android:id="@+id/hautgauche"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="-30dp"
+        android:src="@drawable/frame1"
+        android:layout_marginTop="20dp"
+        app:layout_constraintLeft_toLeftOf="@id/hautgauche"
+        app:layout_constraintTop_toBottomOf="@+id/petittitre"
+        />
+
+
+    <TextView
+        android:id="@+id/applewatch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apple Watch"
+        android:fontFamily="@font/raleway_semibold"
+        android:textSize="16sp"
+
+        app:layout_constraintTop_toBottomOf="@id/hautgauche"
+        app:layout_constraintLeft_toLeftOf="@id/hautgauche"/>
+
+    <TextView
+        android:id="@+id/series7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Series 7"
+        android:fontFamily="@font/raleway_medium"
+        android:layout_marginTop="5dp"
+        android:textColor="#9095A6"
+        android:textSize="12sp"
+
+        app:layout_constraintTop_toBottomOf="@id/applewatch"
+        app:layout_constraintLeft_toLeftOf="@id/hautgauche"/>
+
+    <TextView
+        android:id="@+id/prix1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="$799"
+        android:textColor="#5B41FF"
+        android:textSize="16sp"
+        android:fontFamily="@font/poppins_regular"
+
+        app:layout_constraintTop_toBottomOf="@id/series7"
+        app:layout_constraintLeft_toLeftOf="@id/hautgauche"/>
+
+
+    <ImageView
+        android:id="@+id/hautdroit"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="50dp"
+        android:src="@drawable/frame2"
+
+        app:layout_constraintTop_toTopOf="@id/hautgauche"
+        app:layout_constraintTop_toBottomOf="@+id/petittitre"
+        app:layout_constraintLeft_toRightOf="@id/hautgauche"
+        />
+
+
+
+    <TextView
+        android:id="@+id/galaxywatch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Galaxy Watch"
+        android:fontFamily="@font/raleway_semibold"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@id/hautdroit"
+        app:layout_constraintLeft_toLeftOf="@id/hautdroit"/>
+
+    <TextView
+        android:id="@+id/series4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Series 4"
+        android:fontFamily="@font/raleway_medium"
+        android:textColor="#9095A6"
+        android:textSize="12sp"
+        app:layout_constraintTop_toBottomOf="@id/galaxywatch"
+        app:layout_constraintLeft_toLeftOf="@id/hautdroit"/>
+
+    <TextView
+        android:id="@+id/prix2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="$599"
+        android:textColor="#5B41FF"
+        android:fontFamily="@font/poppins_regular"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@id/series4"
+        app:layout_constraintLeft_toLeftOf="@id/hautdroit"/>
+
+
+    <ImageView
+        android:id="@+id/basgauche"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/frame3"
+        app:layout_constraintTop_toBottomOf="@+id/prix1"
+        app:layout_constraintLeft_toLeftOf="@id/hautgauche"/>
+
+
+
+    <TextView
+        android:id="@+id/garminfenix"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mi Watch"
+        android:fontFamily="@font/raleway_semibold"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@id/basgauche"
+        app:layout_constraintLeft_toLeftOf="@id/basgauche"/>
+
+    <TextView
+        android:id="@+id/solaredition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="All Series"
+        android:textColor="#9095A6"
+        android:fontFamily="@font/raleway_medium"
+        android:textSize="12sp"
+        app:layout_constraintTop_toBottomOf="@id/garminfenix"
+        app:layout_constraintLeft_toLeftOf="@id/basgauche"/>
+
+    <TextView
+        android:id="@+id/prix3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="$299"
+        android:textColor="#5B41FF"
+        android:textSize="16sp"
+        android:fontFamily="@font/poppins_regular"
+        app:layout_constraintBottom_toBottomOf="@id/prix4"
+        app:layout_constraintTop_toBottomOf="@id/solaredition"
+        app:layout_constraintLeft_toLeftOf="@id/basgauche"/>
+
+
+    <ImageView
+        android:id="@+id/basdroit"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/frame4"
+        app:layout_constraintLeft_toLeftOf="@id/hautdroit"
+        app:layout_constraintStart_toStartOf="@+id/hautdroit"
+        app:layout_constraintTop_toBottomOf="@+id/prix2"
+        app:layout_constraintTop_toTopOf="@id/basgauche" />
+
+    <TextView
+        android:id="@+id/amazfit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amazfit Bip U"
+        android:fontFamily="@font/raleway_semibold"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@+id/basdroit"
+        app:layout_constraintLeft_toLeftOf="@id/basdroit"
+        />
+
+    <TextView
+        android:id="@+id/eliteedition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Pro Series"
+        android:fontFamily="@font/raleway_medium"
+        android:textColor="#9095A6"
+        android:textSize="12sp"
+        app:layout_constraintTop_toBottomOf="@+id/amazfit"
+        app:layout_constraintLeft_toLeftOf="@id/basdroit"
+        />
+
+    <TextView
+        android:id="@+id/prix4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/poppins_regular"
+        android:text="$199"
+        android:textColor="#5B41FF"
+        android:textSize="16sp"
+        android:layout_marginBottom="68dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="@id/basdroit"
+        app:layout_constraintTop_toBottomOf="@+id/eliteedition" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
